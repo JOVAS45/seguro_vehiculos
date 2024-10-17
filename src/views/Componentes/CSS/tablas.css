@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Estilo del modal */
+.ant-modal {
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Título del modal */
+.ant-modal-title {
+  font-size: 20px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Peso de fuente del título */
+}
+
+/* Estilo de los elementos del formulario */
+.ant-form-item {
+  margin-bottom: 16px; /* Espacio entre elementos del formulario */
+}
+
+/* Etiquetas del formulario */
+.ant-form-item-label > label {
+  font-weight: 500; /* Peso de fuente de las etiquetas */
+}
+
+/* Botones del formulario */
+.ant-btn-primary {
+  background-color: #4CAF50; /* Color de fondo del botón "Guardar" */
+  border-color: #4CAF50; /* Color del borde del botón "Guardar" */
+}
+
+.ant-btn-primary:hover {
+  background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+.ant-btn {
+  border-radius: 4px; /* Bordes redondeados en los botones */
+}
+
+/* Estilo de los selectores */
+.ant-select {
+  width: 100%; /* Ancho completo para los selectores */
+}
+
+/* Estilo de los inputs */
+.ant-input {
+  border-radius: 4px; /* Bordes redondeados en los inputs */
+}
+
+/* Estilo de los mensajes de error */
+.ant-form-item-explain {
+  color: red; /* Color de los mensajes de error */
+  font-size: 12px; /* Tamaño de fuente de los mensajes de error */
+}
+
+/* Espaciado entre el botón "Guardar" y "Cancelar" */
+.ant-btn + .ant-btn {
+  margin-left: 10px; /* Margen entre los botones */
+}
